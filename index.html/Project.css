@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 45px;
+    color: #750145;
+    margin-bottom: -3px;
+    background-color:#d3ec40 ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 60px;
+    width: 100%;
+
+}
+.timeline-section {
+    padding-top: 30px;
+    margin-top: 20px;
+    background-color: #24292d;
+    min-height: 150vh;
+    padding: 200px 35px;
+}
+.timeline-items {
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+.timeline-items::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 98.7%;
+    background-color: #313335;
+    left: calc(50% - 3px);
+}
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+.timeline-item:last-child {
+    padding-right: calc(50% + 20px);
+
+}
+.timeline-item:nth-child(odd) {
+    padding-right: calc(50% + 20px) ;
+    text-align: right;
+}
+.timeline-item:nth-child(even) {
+    padding-left: calc(50% + 20px) ;
+}
+.timeline-dot {
+    height: 16px;
+    width: 16px;
+    background-color: #eaa023;
+    position: absolute;
+    left: calc(50% - 9px);
+    border-radius: 50%;
+    top: 10px;
+
+}
+.timeline-date {
+    font-size:24px;
+    color: #eaa023;
+    margin: 8px 0 15px;
+    font-weight: 900;
+}
+.timeline-content {
+    background-color: #24292d;
+    padding: 60px;
+    border-radius: 8px;
+
+}
+.timeline-content h3 {
+    font-size: 24px;
+    color: #ffff;
+    margin:0 0 10px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.timeline-content p {
+    color:#8ceb33;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 26px;
+    font-family:poppins ;
+
+}
+@media(max-width:877px){
+    .timeline-items::before {
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(even) {
+        padding-left: 47px;
+    }
+    .timeline-dot{
+        left: 10px;
+    }
+}

@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.head{
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 45px;
+    color:#0c1022;
+    margin-bottom: -3px;
+    background-color:#fff ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 60px;
+    font-family: fantasy;
+
+}
+.pic{
+    background:#DBC8AC;
+}
+.pro-container {
+    margin-top: 40px;
+    margin-left: 8%;
+    height:280px;
+    width: 450px;
+    align-items: center;
+    background-color:#ebd82e;
+    border-radius: 5%;
+    transition: transform.6s cubic-bezier(.4,.2,.2,1);
+    padding-bottom: -20%;
+   
+}
+.text {
+   text-align: center;
+   padding-top: 14%;
+   font-size: 20px;
+   font-weight: bolder;
+   color: #0c1022;
+   text-transform: uppercase;
+   border-radius: 60%;
+   line-height: 3px;
+
+}
+.title1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 17px;
+    font-weight: 900;
+    color:#0B666A;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60%;
+    line-height:1.2;
+
+}
+.title2{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 17px;
+    font-weight: 900;
+    color:#0B666A;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60%;
+    line-height:1.2;
+}
+.text1{
+    text-align: center;
+    padding-top: 14%;
+    font-size: 16px;
+    font-weight: 900;
+    color: #0c1022;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60%;
+    line-height: 3px;
+}
+.title3{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 17px;
+    font-weight: 900;
+    color:#0B666A;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60%;
+    line-height:1.2; 
+}
+.btn {
+    color:#fff;
+    border-radius: 50px;
+    background: #be0e26;
+    margin-left: 10%;
+    height:60px ;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    backface-visibility:hidden;
+    text-decoration: none;
+    margin-left: 26%;
+    padding-top: 4.5%;
+    padding-left: 2px;
+    padding-right: 4%;
+    min-width: 200px;
+    margin-top: 10%;
+
+    
+
+}
+.btn1{
+    color:#fff;
+    border-radius: 50px;
+    background: #be0e26;
+    margin-left: 10%;
+    height:60px ;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    backface-visibility:hidden;
+    text-decoration: none;
+    margin-left: 26%;
+    padding-top: 4.5%;
+    padding-left: 2px;
+    padding-right: 4%;
+    min-width: 200px;
+    margin-top: 10%;
+}
+.btn2{
+    color:#fff;
+    border-radius: 50px;
+    background: #be0e26;
+    margin-left: 10%;
+    height:60px ;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    backface-visibility:hidden;
+    text-decoration: none;
+    margin-left: 26%;
+    padding-top: 4.5%;
+    padding-left: 2px;
+    padding-right: 4%;
+    min-width: 200px;
+    margin-top: 10%;
+}
+.text2{
+    text-align: center;
+    padding-top: 14%;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #0c1022;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border-radius: 60%;
+    line-height: 3px;
+}
+
+.pro-container1 {
+    margin-top: 40px;
+    margin-left: 50%;
+    height:280px;
+    width: 450px;
+    align-items: center;
+    background-color:#ebd82e;
+    backdrop-filter: blur(3px);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    border: 6px  ridge(#be0e26,#3cf)  ;
+    backface-visibility: hidden;
+    transition: transform.6s cubic-bezier(.4,.2,.2,1);
+    transform-style: preserve-3d;
+    padding-bottom: -20%;
+}    
+.pro-container2{
+    margin-top: 50px;
+    margin-left: 15%;
+    height:280px;
+    width: 450px;
+    align-items: center;
+    background-color:#ebd82e;
+    backdrop-filter: blur(3px);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    border: 6px  ridge(#be0e26,#3cf)  ;
+    backface-visibility: hidden;
+    transition: transform.6s cubic-bezier(.4,.2,.2,1);
+    transform-style: preserve-3d;
+    padding-bottom: -20%;
+}
+.pro-container3{
+    margin-top: 40px;
+    margin-left: 50%;
+    height:280px;
+    width: 450px;
+    align-items: center;
+    background-color:#ebd82e;
+    backdrop-filter: blur(3px);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    border: 6px  ridge(#be0e26,#3cf)  ;
+    backface-visibility: hidden;
+    transition: transform.6s cubic-bezier(.4,.2,.2,1);
+    transform-style: preserve-3d;
+    padding-bottom: -20%;
+}
+.text3{
+    text-align: center;
+    padding-top: 14%;
+    font-size: 16px;
+    font-weight: 900;
+    color: #0c1022;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60%;
+    line-height: 3px;
+
+}
+.btn3{
+    color:#fff;
+    border-radius: 50px;
+    background: #be0e26;
+    margin-left: 10%;
+    height:60px ;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    backface-visibility:hidden;
+    text-decoration: none;
+    margin-left: 26%;
+    padding-top: 4.5%;
+    padding-left: 2px;
+    padding-right: 4%;
+    min-width: 200px;
+    margin-top: 10%;
+
+}
+.title4{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 17px;
+    font-weight: 900;
+    color:#0B666A;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60%;
+    line-height:1.2; 
+}
+@media(max-width:767px){
+    .pro-container{
+        left: 7px;
+    }
+    .pro-container1{
+        left: 7px;
+    }
+    .pro-container2{
+        left: 7px;
+    }
+}
